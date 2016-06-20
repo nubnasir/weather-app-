@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/warn_signal_background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/sea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:maxLines="2"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:text="Button"
+        android:textSize="20sp"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/sea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Button"
+        android:textSize="20sp"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/river1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Button"
+        android:textSize="20sp"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/river2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Button"
+        android:textSize="20sp"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+</LinearLayout>

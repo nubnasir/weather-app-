@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4682B4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/exitwhat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:layout_gravity="center"
+            android:text="X" />
+
+        <TextView
+            android:id="@+id/titlewhat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:layout_gravity="center"
+            android:maxLines="5"
+            android:text="Title"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#87CEEB"
+                android:maxLines="1000"
+                android:padding="5dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#473C8B" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/warn_background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/earthquake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:maxLines="2"
+        android:textColor="#FFFFF0"
+        android:textStyle="bold"
+        android:text="Weather Forecast"
+        android:background="#111122"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/cyclone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#FFFFF0"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Dhaka and Nearby"
+        android:background="#111122"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/kalboishakhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#FFFFF0"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Sea Bulletin"
+        android:background="#111122"
+        android:alpha="0.6" />
+    
+    <Button
+        android:id="@+id/flood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#FFFFF0"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Sea Bulletin"
+        android:background="#111122"
+        android:alpha="0.6" />
+
+</LinearLayout>

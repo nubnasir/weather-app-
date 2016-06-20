@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/warn_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/warningtilte1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:alpha="0.6"
+                android:background="#A10A0A"
+                android:text="Loading..."
+                android:textColor="#F5F5F5"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/warningMAP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:alpha="0.6"
+                android:background="#A10A0A"
+                android:text="Loading..."
+                android:textColor="#F5F5F5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#410B0B"
+                android:gravity="center"
+                android:text="Loading..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#E5E5E5" />
+
+            <LinearLayout
+                android:id="@+id/warninglayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.6"
+                android:background="#010101"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/warningtilte2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.6"
+                android:background="#A10A0A"
+                android:text="Loading..."
+                android:textColor="#F5F5F5"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/warningMAP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:alpha="0.6"
+                android:background="#A10A0A"
+                android:text="Loading..."
+                android:textColor="#F5F5F5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#410B0B"
+                android:gravity="center"
+                android:text="Loading..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#E5E5E5" />
+
+            <LinearLayout
+                android:id="@+id/warninglayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.6"
+                android:background="#010101"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

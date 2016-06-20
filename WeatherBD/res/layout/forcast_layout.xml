@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/k_1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/weatherforcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:maxLines="2"
+        android:textColor="#0000F5"
+        android:textStyle="bold"
+        android:text="Weather Forecast"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/dhakaneibourhood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#0000F5"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Dhaka and Nearby"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/seaforcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#0000F5"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Sea Bulletin"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/fishforcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#0000F5"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Fishermen Forecast"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+
+    <Button
+        android:id="@+id/fleetforcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#0000F5"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Fleet Forecast"
+        android:background="#FFF0F5"
+        android:alpha="0.6" />
+    
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather BD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+	<string name="title_activity_about">Weather Report</string>
+    
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>All City</item>
+        <item>Favorites</item>
+        <item>বাংলাদেশ</item>
+        <item>Search City</item>
+        <item>Missing City</item>
+        <item>Live Earthquake</item>
+        <item>Earthquake Map(BD)</item>
+        <item>বাংলাদেশ (BMD)</item>
+        <item>Live Warning BD</item>
+        <item>Forecast(পূর্বাভাস)</item>
+        <item>Warning Signals BD</item>
+        <item>দুর্যোগে করনীয়</item>
+        <item>Room Condition</item>
+        <item>Quit</item>
+    </string-array>
+    
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_action_select_all</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/bangladesh</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/eq_icon</item>
+        <item>@drawable/eq_map_bd_icon</item>
+        <item>@drawable/bangladesh</item>
+        <item>@drawable/ic_action_warning</item>
+        <item>@drawable/weezle_sun_maximum_clouds</item>
+        <item>@drawable/ic_action_warning</item>
+        <item>@drawable/ques</item>
+        <item>@drawable/thermometer</item>
+        <item>@drawable/arrow_exit</item>
+    </string-array>
+    
+</resources>
